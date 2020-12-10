@@ -1,0 +1,88 @@
+/* CSS Document */ @charset "utf-8"; html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;font: inherit;vertical-align: baseline;} article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} body {line-height: 1;} ol, ul {list-style: none;} blockquote, q {quotes: none;} blockquote:before, blockquote:after,q:before, q:after {content: '';	content: none;} ins {text-decoration: none;} del {text-decoration: line-through;} table {border-collapse: collapse;border-spacing: 0;} html,body {width:100%;height:100%;background:#f4f2f1;margin:0px;padding:0px;} a {cursor:pointer;text_decoration:none;font-family:Arial, Helvetica, sans-serif;} 
+a, p { text-decoration:none!important;} p, h1 {cursor:default;} .clear {float:none;clear:both;} 
+body {overflow:hidden;}
+@font-face { font-family: 'GnuolaneFree';  
+	src: url('fonts/gnuolane_free-webfont.eot');  
+	src: url('fonts/gnuolane_free-webfont.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/gnuolane_free-webfont.woff') format('woff'), 
+		url('fonts/gnuolane_free-webfont.ttf') format('truetype'),    
+		url('fonts/gnuolane_free-webfont.svg#GnuolaneFree') format('svg'); 
+		font-weight: normal;font-style: normal;} 
+	
+@font-face {font-family: 'ColaborateThinRegular';
+	src: url('fonts/ColabThi-webfont.eot');
+	src: url('fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ColabThi-webfont.woff') format('woff'),
+		url('fonts/ColabThi-webfont.ttf') format('truetype'),
+		url('fonts/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+		font-weight: normal;font-style: normal;} 
+	
+@font-face { font-family: 'ColaborateLightRegular';
+	src: url('fonts/ColabLig-webfont.eot');
+	src: url('fonts/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ColabLig-webfont.woff') format('woff'),
+		url('fonts/ColabLig-webfont.ttf') format('truetype'),
+		url('fonts/ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+		font-weight: normal;font-style: normal;} 
+
+@font-face {font-family: 'open_sanslight';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;font-style: normal;}
+.effect {float:left;margin-right:-92px;margin-top:208px;margin-left:180px;} 
+
+/* PANEL CONTAINERS (ASSIGNED BY TARGET_CONTAINER CLASS) */
+.panel1, .panelscroll {width:100%;height:60px;background-color:#2ea6ff;border-bottom:5px solid #fff;}
+.panel2 {width:110px;height:550px;background-color:#FFFFFF;border-radius:5px;box-shadow:4px 4px 8px rgba(133,133,133,0.25);}
+.panel3 {width:320px;height:520px;background-color:#fff;padding:20px;border:3px solid #2ea6ff;box-shadow:4px 4px 8px rgba(133,133,133,0.35);border-radius:5px;}
+.panel4 {width:100%;height:350px;border-bottom:8px solid #fff;background:url(http://totallybookedblog.com/wp-content/uploads/2012/12/christmas-background-100259.jpg);box-shadow:4px 4px 0px #DDDBDB;padding:0;} 
+/* PANEL TEXT */
+.panelText1 {color:#fff;text-align:center;font-family:'open_sanslight';font-size:22px;padding-top:13px;}
+.panelText3 {color:#66635b;text-align:left;width:300px;line-height:28px;font-size:18px;font-family:'ColaborateLightRegular';}
+.close_panel {color:#fff;float:right;opacity:0.5;margin-top:55px;}
+.close_panel:hover {color:#2EA6FF;}
+/* PANEL HTML_MODE CONTENT */
+#html5inject {overflow:visible;padding:0px;height:350px;width:980px;margin:0 auto;position:relative;}
+.html5image {background:url('../../..img/test.png') no-repeat;width:275px;height:300px;float:left;margin-top:40px;}
+#html5inject p {font-size:17px;font-family:'Arial';line-height:32px;color:#fff;padding-top:50px;}
+#html5inject .htmlinjectheader {font-family:'Arial';font-size:42px;letter-spacing:-1px;margin-bottom:15px;color:#fff;}
+
+/* LIGHTBOX CLASS (ASSIGNED USING TARGET_CONTAINER) */
+.lightbox3 {width:500px;height:400px;background:#FF6666;border:solid 2px #b2deff;border-radius:8px;padding:10px;box-shadow:3px 3px 5px rgba(133,133,133,0.35);overflow:hidden;}
+.lightbox1 {width:450px;height:550px;background:#3366CC;border:solid 2px #b2deff;border-radius:8px;padding:10px;box-shadow:3px 3px 5px rgba(133,133,133,0.35);overflow:hidden;}
+
+/* LIGHTBOX TEXT */
+.lightboxText1 {font-family:'open_sanslight';font-size:22px;line-height:32px;width:390px;color:#fff;}
+.lightboxText3 {font-family:Arial, Helvetica, sans-serif;font-size:30px;line-height:70px;width:390px;color:#000000;}	
+
+/* LIGHTBOX HTML CONTENT STYLING */
+#lightbox1html {background:#3366CC;width:450px;cursor:pointer;} 
+#lightbox1html p {cursor:pointer;font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:30px;width:420px;color:#fff;margin-left:2px;} 
+#lightbox1html .title {font-size:60px;margin-bottom:30px;}
+#lightbox1html .sub {font-size:24px;margin-bottom:35px;}
+#lightboxContent {width:380px;height:80px;margin-top:20px;margin-left:50px}
+#lightboxContent span.title {color:#FFFFFF;display:inline-block;margin-bottom:20px;font-family:Arial, Helvetica, sans-serif;font-size:30px;}
+#lightboxContent span.text {color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;font-size:22px;line-height:30px;}
+#lightboxContent a {float:right;bold;color:#3FF;margin-top:15px;}
+
+/* OVERLAYS */
+.lightboxOverlay1 {background-color:#333333;}
+.lightboxOverlay3 {background-color:#333333;}
+
+
+/* RESPONSIVE - DEMO ONLY */
+/* TABLETS */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	.maincontent {width:99%;height:100%;margin:0px auto;padding:0px;margin-left:0px;}
+	body,html,
+	.effect {margin-left:0;width:200px;}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:1224px) {
+
+}
